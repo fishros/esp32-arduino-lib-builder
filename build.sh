@@ -10,7 +10,7 @@ if ! [ -x "$(command -v git)" ]; then
     exit 1
 fi
 
-export TARGET="esp32s3"
+export TARGET="esp32s2"
 BUILD_TYPE="all"
 SKIP_ENV=0
 COPY_OUT=0
